@@ -1,0 +1,118 @@
+.contacts {
+    width: 100vw;
+    min-height: 100vh;
+
+    padding-top: 110px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../images/contacts-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.info-box, .form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width:80vw;
+    max-width: 800px;
+    height: 80vh;
+    margin: 20px 0;
+
+    color: #ffffff;
+}
+
+
+/* ---------- INFO --------- */
+.info-box {background-color: #D9A0C5;}
+
+/* ----- SECTION */
+.section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ----- SOCIALS */
+.socials {margin: 25px 0;}
+.link {
+    margin: 10px;
+    font-size: 30px;
+    color: inherit;
+}
+.link:hover {color: #400112;}
+
+
+/* ----- MAP */
+.map {
+    width: 80%;
+    height: 300px;
+    border: 1px solid white;
+}
+
+
+/* ---------- FORM ---------- */
+.form-box {background-color: #400112;}
+
+/* ----- INPUT */
+input {
+    width: 200px;
+    height: 2.5em;
+    margin: 15px 0;
+    padding: 5px;
+
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #D9A0C5;
+    background-color: transparent;
+
+    color: #ffffff;
+    font-size: 18px;
+}
+input:hover, input:focus {border-bottom: 2px solid #D9A0C5;}
+
+/* ----- TEXTAREA */
+textarea {
+    width: 200px;
+    height: 300px;
+    margin: 15px 0;
+    padding: 10px;
+    
+    border: none;
+    outline: none;
+
+    font-size: 18px;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+/* ----- BUTTON */
+button {
+    margin: 20px 0;
+    width: 200px;
+    height: 2.5em;
+
+    border: none;
+    background-color: #D9A0C5;
+    color: #400112;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    /* background-color: #400112; */
+    /* color: #D9A0C5; */
+    transform: scale(1.1, 1.1);
+}
+
+/* ---------- RESPONSIVENESS --------- */
+@media only screen and (min-width: 961px) {
+    .contacts {flex-direction: row;}
+    .info-box, .form-box {width: 45vw;}
+
+    input, textarea, button {width: 350px;}
+}

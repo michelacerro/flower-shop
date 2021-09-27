@@ -1,0 +1,47 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 110px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../images/home-background.jpg');
+    background-size: cover;
+    background-position: right;
+
+    text-align: center;
+}
+
+.text-box {
+    width: 70vw;
+    height: 70vh;
+}
+
+.welcome-banner {
+    /* margin: 0 30px 50px 30px; */
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #400112;
+}
+.link:hover {color: #D9A0C5;}
+
+
+/* ---------- RESPONSIVENESS --------- */
+@media only screen and (min-width: 801px) {
+    .home{
+        background-position: center;
+    }
+
+    .welcome-banner {
+        font-size: 80px;
+        margin-bottom: 100px;
+    }
+}

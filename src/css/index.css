@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+  /* -webkit-scrollbar {display: none;} */
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+
+  font-family: 'Yaldevi', sans-serif;
+}

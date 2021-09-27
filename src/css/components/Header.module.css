@@ -1,0 +1,63 @@
+/* ----- HEADER */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    z-index: 20;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    background-color: white;
+}
+
+
+/* ----- NAVBAR */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding: 25px;
+}
+
+
+/* ----- LOGO */
+.link-logo {
+    text-decoration: none;
+    color: inherit;
+}
+.logo {
+    font-size: 40px;
+    color: #D9A0C5;
+    text-decoration: none;
+}
+.logo:hover {color: #400112}
+
+
+/* ----- NAME */
+.name {display: none;}
+
+
+/* ----- DIVIDER */
+.divider {
+    width: 95%;
+    border-bottom: 1.5px solid #000000;
+}
+
+
+/* --------- RESPONSIVENESS ---------- */
+@media only screen and (min-width: 600px) {
+    /* ----- NAME */
+    .name {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: #400112;
+        font-size: 45px;
+    }
+}

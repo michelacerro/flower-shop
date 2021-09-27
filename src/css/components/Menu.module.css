@@ -1,0 +1,44 @@
+/* ----- MENU */
+.menu-button {font-size: 30px;}
+.menu-button:hover {color: #D9D9D9;}
+
+.menu-box{
+    display: none;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    top: 105px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #ffffff;
+}
+
+.menu-horizontal {display: none;}
+
+
+/* ----- LINK AND DIVIDER */
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px 0;
+    color: inherit;
+}
+.link:hover {color: #D9A0C5;}
+
+.divider {
+    width: 100px;
+    border-bottom: 1.5px solid #000000;
+}
+
+
+/* ---------- RESPONSIVENESS ---------- */
+@media only screen and (min-width: 961px) {
+    .menu-vertical {display: none;}
+    .menu-horizontal {display: flex;}
+    .link {margin: 0 20px;}
+}
