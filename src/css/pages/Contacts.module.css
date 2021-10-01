@@ -24,6 +24,7 @@
     max-width: 800px;
     height: 80vh;
     margin: 20px 0;
+    padding: 20px;
 
     color: #ffffff;
 }
@@ -45,14 +46,17 @@
     font-size: 30px;
     color: inherit;
 }
-.link:hover {color: #400112;}
+.link:hover {font-size: 32px;}
 
 
 /* ----- MAP */
 .map {
     width: 80%;
     height: 300px;
-    border: 1px solid white;
+}
+.marker {
+    font-size: 24px;
+    color: #400112;
 }
 
 
@@ -91,7 +95,7 @@ textarea {
 }
 
 /* ----- BUTTON */
-button {
+.form-button {
     margin: 20px 0;
     width: 200px;
     height: 2.5em;
@@ -104,9 +108,7 @@ button {
 }
 button:hover {
     cursor: pointer;
-    /* background-color: #400112; */
-    /* color: #D9A0C5; */
-    transform: scale(1.1, 1.1);
+    font-size: 20px;
 }
 
 /* ---------- RESPONSIVENESS --------- */
@@ -114,5 +116,5 @@ button:hover {
     .contacts {flex-direction: row;}
     .info-box, .form-box {width: 45vw;}
 
-    input, textarea, button {width: 350px;}
+    input, textarea, .form-button {width: 400px;}
 }
