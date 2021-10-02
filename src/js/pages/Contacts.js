@@ -58,9 +58,9 @@ const Contacts = () => {
 
             {/* ----- FORM BOX */}
             <form className={styles['form-box']}>
-                <input type='text' placeholder='Name' />
-                <input type='text' placeholder='Lastname' />
-                <input type='text' placeholder='Email' />
+                <input type='text' placeholder='Name' className={styles['input-line']} />
+                <input type='text' placeholder='Lastname' className={styles['input-line']} />
+                <input type='text' placeholder='Email' className={styles['input-line']} />
                 <textarea placeholder='Write your message...' />
                 <button type='submit' className={styles['form-button']}>Send</button>
             </form>

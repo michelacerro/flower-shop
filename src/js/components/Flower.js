@@ -1,18 +1,16 @@
 // Styles
 import styles from '../../css/components/Flower.module.css';
 
-// Images
-import image from '../../images/contacts-background.jpg';
-
 // Dependencies
 import React from 'react';
 
-const Flower = () => {
+
+const Flower = (props) => {
     return (
         <div className={styles['flower']}>
-            <img src={image} alt='nome-fiore' />
-            <h3>nome fiore</h3>
-            <h5>nome scientifico</h5>
+            <img src={`./images/${props.info.image_name}.jpg`} alt={props.info.image_name} />
+            <h3>{props.info.name}</h3>
+            <h5>{props.info.scientific_name}</h5>
         </div>
     );
 };

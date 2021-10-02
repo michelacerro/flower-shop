@@ -1,0 +1,79 @@
+/* ----- SEARCH CONTAINER ----- */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+}
+
+/* ----- SEARCHBAR ----- */
+.search-form {
+    width: 95%;
+    max-width: 400px;
+    padding: 5px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #D9A0C5;
+
+    display: flex;
+    justify-content: space-between;
+}
+.search-form:hover {border-bottom: 2px solid #D9A0C5;}
+
+.searchbar {
+    font-size: 18px;
+    width: 100%;
+
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.search-button {
+    border: none;
+    background-color: transparent;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+.search-button:hover {font-size: 20px;}
+
+/* ----- CHECKBOX ----- */
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 90%;
+    max-width: 400px;
+}
+
+.checkbox-label {padding: 10px;}
+.checkbox-label:hover {color: #D9A0C5;}
+
+.checkbox-input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark {
+    margin-right: 5px;
+    font-size: 16px;
+    color: #D9A0C5;
+}
+
+/* ----- NO FILTER BUTTON ----- */
+.no-filter {
+    border: none;
+    background-color: transparent;
+    margin-top: 25px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.no-filter:hover {color: #D9A0C5;}
+
+
+/* --------- RESPONSIVENESS --------- */
+@media only screen and (min-width: 801px) {
+    .searchbar, .search-button, .checkbox-container {width: 250px;}
+}

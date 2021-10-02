@@ -1,0 +1,366 @@
+[
+    {
+        "id": 1,
+        "name": "rose",
+        "scientific_name": "rosa",
+        "colour": "red",
+        "image_name": "rose_red"
+    },
+    {
+        "id": 2,
+        "name": "rose",
+        "scientific_name": "rosa",
+        "colour": "rose",
+        "image_name": "rose_rose"
+    },
+    {
+        "id": 3,
+        "name": "rose",
+        "scientific_name": "rosa",
+        "colour": "white",
+        "image_name": "rose_white"
+    },
+    {
+        "id": 4,
+        "name": "rose",
+        "scientific_name": "rosa",
+        "colour": "yellow",
+        "image_name": "rose_yellow"
+    },
+    {
+        "id": 5,
+        "name": "sunflower",
+        "scientific_name": "helianthus",
+        "colour": "yellow",
+        "image_name": "sunflower"
+    },
+    {
+        "id": 6,
+        "name": "tulip",
+        "scientific_name": "tulipa",
+        "colour": "yellow",
+        "image_name": "tulip_yellow"
+    },
+    {
+        "id": 7,
+        "name": "tulip",
+        "scientific_name": "tulipa",
+        "colour": "red",
+        "image_name": "tulip_red"
+    },
+    {
+        "id": 8,
+        "name": "tulip",
+        "scientific_name": "tulipa",
+        "colour": "orange",
+        "image_name": "tulip_orange"
+    },
+    {
+        "id": 9,
+        "name": "tulip",
+        "scientific_name": "tulipa",
+        "colour": "white",
+        "image_name": "tulip_white"
+    },
+    {
+        "id": 10,
+        "name": "tulip",
+        "scientific_name": "tulipa",
+        "colour": "purple",
+        "image_name": "tulip_purple"
+    },
+    {
+        "id": 11,
+        "name": "tulip",
+        "scientific_name": "tulipa",
+        "colour": "rose",
+        "image_name": "tulip_rose"
+    },
+    {
+        "id": 12,
+        "name": "carnation",
+        "scientific_name": "dianthus",
+        "colour": "rose",
+        "image_name": "carnation_rose"
+    },
+    {
+        "id": 13,
+        "name": "carnation",
+        "scientific_name": "dianthus",
+        "colour": "white",
+        "image_name": "carnation_white"
+    },
+    {
+        "id": 14,
+        "name": "carnation",
+        "scientific_name": "dianthus",
+        "colour": "red",
+        "image_name": "carnation_red"
+    },
+    {
+        "id": 15,
+        "name": "daffodil",
+        "scientific_name": "narcissus",
+        "colour": "yellow",
+        "image_name": "daffodil_yellow"
+    },
+    {
+        "id": 16,
+        "name": "daffodil",
+        "scientific_name": "narcissus",
+        "colour": "white",
+        "image_name": "daffodil_white"
+    },
+    {
+        "id": 17,
+        "name": "hyacinth",
+        "scientific_name": "astroemeria",
+        "colour": "blue",
+        "image_name": "hyacinth_blue"
+    },
+    {
+        "id": 18,
+        "name": "hyacinth",
+        "scientific_name": "astroemeria",
+        "colour": "white",
+        "image_name": "hyacinth_white"
+    },
+    {
+        "id": 19,
+        "name": "hyacinth",
+        "scientific_name": "astroemeria",
+        "colour": "rose",
+        "image_name": "hyacinth_rose"
+    },
+    {
+        "id": 20,
+        "name": "mimosa",
+        "scientific_name": "mimosa",
+        "colour": "yellow",
+        "image_name": "mimosa"
+    },
+    {
+        "id": 21,
+        "name": "daisy",
+        "scientific_name": "leucanthemum vulgare",
+        "colour": "white",
+        "image_name": "daisy"
+    },
+    {
+        "id": 22,
+        "name": "anthurium",
+        "scientific_name": "anthurium",
+        "colour": "white",
+        "image_name": "anthurium_white"
+    },
+    {
+        "id": 23,
+        "name": "anthurium",
+        "scientific_name": "anthurium",
+        "colour": "orange",
+        "image_name": "anthurium_orange"
+    },
+    {
+        "id": 24,
+        "name": "anthurium",
+        "scientific_name": "anthurium",
+        "colour": "red",
+        "image_name": "anthurium_red"
+    },
+    {
+        "id": 25,
+        "name": "lily",
+        "scientific_name": "lilium",
+        "colour": "rose",
+        "image_name": "lily"
+    },
+    {
+        "id": 26,
+        "name": "centaurea",
+        "scientific_name": "centaurea cyanus",
+        "colour": "blue",
+        "image_name": "centaurea"
+    },
+    {
+        "id": 27,
+        "name": "chrysanthemum",
+        "scientific_name": "chrysanthemum",
+        "colour": "rose",
+        "image_name": "chrysanthemum_rose"
+    },
+    {
+        "id": 28,
+        "name": "chrysanthemum",
+        "scientific_name": "chrysanthemum",
+        "colour": "yellow",
+        "image_name": "chrysanthemum_yellow"
+    },
+    {
+        "id": 29,
+        "name": "gladiolus",
+        "scientific_name": "gladiolus",
+        "colour": "red",
+        "image_name": "gladiolus"
+    },
+    {
+        "id": 30,
+        "name": "hydrangea",
+        "scientific_name": "hydrangea",
+        "colour": "blue",
+        "image_name": "hydrangea_blue"
+    },
+    {
+        "id": 31,
+        "name": "hydrangea",
+        "scientific_name": "hydrangea",
+        "colour": "white",
+        "image_name": "hydrangea_white"
+    },
+    {
+        "id": 32,
+        "name": "hydrangea",
+        "scientific_name": "hydrangea",
+        "colour": "rose",
+        "image_name": "hydrangea_rose"
+    },
+    {
+        "id": 33,
+        "name": "hydrangea",
+        "scientific_name": "hydrangea",
+        "colour": "orange",
+        "image_name": "hydrangea_orange"
+    },
+    {
+        "id": 34,
+        "name": "calla",
+        "scientific_name": "zantedeschia",
+        "colour": "white",
+        "image_name": "calla"
+    },
+    {
+        "id": 35,
+        "name": "cinerea",
+        "scientific_name": "eucaliptus cinerea",
+        "colour": "green",
+        "image_name": "cinerea"
+    },
+    {
+        "id": 36,
+        "name": "monstera",
+        "scientific_name": "monstera",
+        "colour": "green",
+        "image_name": "monstera"
+    },
+    {
+        "id": 37,
+        "name": "magnolia",
+        "scientific_name": "magnolia",
+        "colour": "white",
+        "image_name": "magnolia"
+    },
+    {
+        "id": 38,
+        "name": "ivy",
+        "scientific_name": "hedera helix",
+        "colour": "green",
+        "image_name": "ivy"
+    },
+    {
+        "id": 39,
+        "name": "leatherleaf fern",
+        "scientific_name": "rumohra adiantiformis",
+        "colour": "green",
+        "image_name": "leatherleaf_fern"
+    },
+    {
+        "id": 40,
+        "name": "camellia",
+        "scientific_name": "camellia",
+        "colour": "green",
+        "image_name": "camellia"
+    },
+    {
+        "id": 41,
+        "name": "olive branch",
+        "scientific_name": "olea europaea",
+        "colour": "green",
+        "image_name": "olive"
+    },
+    {
+        "id": 42,
+        "name": "schefflera",
+        "scientific_name": "schefflera arboricola",
+        "colour": "green",
+        "image_name": "schefflera"
+    },
+    {
+        "id": 43,
+        "name": "ficus",
+        "scientific_name": "ficus",
+        "colour": "green",
+        "image_name": "ficus"
+    },
+    {
+        "id": 44,
+        "name": "lavender",
+        "scientific_name": "lavandula",
+        "colour": "purple",
+        "image_name": "lavender"
+    },
+    {
+        "id": 45,
+        "name": "sea holly",
+        "scientific_name": "eryngium",
+        "colour": "blue",
+        "image_name": "sea_holly"
+    },
+    {
+        "id": 46,
+        "name": "hypericum",
+        "scientific_name": "hypericum",
+        "colour": "red",
+        "image_name": "hypericum"
+    },
+    {
+        "id": 47,
+        "name": "bird of paradise",
+        "scientific_name": "sterlitzia reginae",
+        "colour": "orange",
+        "image_name": "sterlitzia"
+    },
+    {
+        "id": 48,
+        "name": "heather",
+        "scientific_name": "calluna vulgaris",
+        "colour": "red",
+        "image_name": "heather_red"
+    },
+    {
+        "id": 49,
+        "name": "heather",
+        "scientific_name": "calluna vulgaris",
+        "colour": "rose",
+        "image_name": "heather_rose"
+    },
+    {
+        "id": 50,
+        "name": "campanula",
+        "scientific_name": "campanula",
+        "colour": "white",
+        "image_name": "campanula_white"
+    },
+    {
+        "id": 51,
+        "name": "campanula",
+        "scientific_name": "campanula",
+        "colour": "purple",
+        "image_name": "campanula_purple"
+    },
+    {
+        "id": 52,
+        "name": "campanula",
+        "scientific_name": "campanula",
+        "colour": "rose",
+        "image_name": "campanula_rose"
+    }
+]

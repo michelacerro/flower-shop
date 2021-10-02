@@ -64,7 +64,7 @@
 .form-box {background-color: #400112;}
 
 /* ----- INPUT */
-input {
+.input-line {
     width: 200px;
     height: 2.5em;
     margin: 15px 0;
@@ -78,7 +78,7 @@ input {
     color: #ffffff;
     font-size: 18px;
 }
-input:hover, input:focus {border-bottom: 2px solid #D9A0C5;}
+.input-line:hover, .input-line:focus {border-bottom: 2px solid #D9A0C5;}
 
 /* ----- TEXTAREA */
 textarea {
@@ -106,15 +106,12 @@ textarea {
     font-size: 18px;
     font-weight: bold;
 }
-button:hover {
-    cursor: pointer;
-    font-size: 20px;
-}
+.form-button:hover {font-size: 20px;}
 
 /* ---------- RESPONSIVENESS --------- */
 @media only screen and (min-width: 961px) {
     .contacts {flex-direction: row;}
     .info-box, .form-box {width: 45vw;}
 
-    input, textarea, .form-button {width: 400px;}
+    .input-line, textarea, .form-button {width: 400px;}
 }
