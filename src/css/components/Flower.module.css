@@ -6,6 +6,8 @@
     text-align: center;
 }
 
+.flower > h3 {color: #400112;}
+
 img {
     width: 200px;
     height: 200px;

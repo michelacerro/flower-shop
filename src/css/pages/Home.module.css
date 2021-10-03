@@ -1,6 +1,6 @@
 .home {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 110px;
 
     display: flex;
@@ -11,20 +11,26 @@
     background-image: url('../../images/home-background.jpg');
     background-size: cover;
     background-position: right;
-
-    text-align: center;
 }
 
 .text-box {
-    width: 70vw;
-    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .welcome-banner {
-    margin-bottom: 50px;
+    margin: 0 10px 50px 10px;
     font-size: 40px;
 }
 
+.welcome-text {
+    display: none;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
 
 .link {
     text-decoration: none;
@@ -43,4 +49,6 @@
         font-size: 80px;
         margin-bottom: 100px;
     }
+
+    .welcome-text {display: block;}
 }

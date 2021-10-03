@@ -1,12 +1,12 @@
 
-h1 {font-family: 'Birthstone Bounce', cursive;}
+h1 {
+  font-family: 'Birthstone Bounce', cursive;
+  font-size: 50px;
+  text-align: center;
+}
 
 h3, h5 {text-transform: capitalize;}
-h3 {color: #400112;}
+
+p {font-size: 22px;}
 
 label:hover, input:hover, button:hover {cursor: pointer;}
-
- 
-@media only screen and (min-width: 801px) {
-  p {font-size: 22px;}
-}

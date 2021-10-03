@@ -2,7 +2,7 @@
     width: 100vw;
     min-height: 100vh;
 
-    padding-top: 110px;
+    padding-top: 100px;
 
     display: flex;
     flex-direction: column;
@@ -20,10 +20,9 @@
     justify-content: center;
     align-items: center;
 
-    width:80vw;
+    width: 95vw;
     max-width: 800px;
-    height: 80vh;
-    margin: 20px 0;
+    margin: 20px 0 10px 0;
     padding: 20px;
 
     color: #ffffff;
@@ -32,6 +31,11 @@
 
 /* ---------- INFO --------- */
 .info-box {background-color: #D9A0C5;}
+
+.info-box a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* ----- SECTION */
 .section {
@@ -51,7 +55,8 @@
 
 /* ----- MAP */
 .map {
-    width: 80%;
+    width: 100%;
+    max-width: 400px;
     height: 300px;
 }
 .marker {
@@ -65,7 +70,8 @@
 
 /* ----- INPUT */
 .input-line {
-    width: 200px;
+    width: 100%;
+    max-width: 400px;
     height: 2.5em;
     margin: 15px 0;
     padding: 5px;
@@ -82,7 +88,8 @@
 
 /* ----- TEXTAREA */
 textarea {
-    width: 200px;
+    width: 100%;
+    max-width: 400px;
     height: 300px;
     margin: 15px 0;
     padding: 10px;
@@ -97,7 +104,8 @@ textarea {
 /* ----- BUTTON */
 .form-button {
     margin: 20px 0;
-    width: 200px;
+    width: 100%;
+    max-width: 400px;
     height: 2.5em;
 
     border: none;
@@ -111,7 +119,8 @@ textarea {
 /* ---------- RESPONSIVENESS --------- */
 @media only screen and (min-width: 961px) {
     .contacts {flex-direction: row;}
-    .info-box, .form-box {width: 45vw;}
-
-    .input-line, textarea, .form-button {width: 400px;}
+    .info-box, .form-box {
+        width: 45vw;
+        height: 80vh;
+    }
 }

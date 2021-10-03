@@ -8,9 +8,15 @@ import {FaMapMarkerAlt} from 'react-icons/fa';
 // Dependencies
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
+import {useForm} from '@formspree/react';
 
 
 const Contacts = () => {  
+    const [state, handleSubmit] = useForm('xdoyjznn');
+    if (state.succeded) {
+        return <div>Thanks!</div>
+    }
+
     return (
         <div className={styles['contacts']}>
 
@@ -22,8 +28,11 @@ const Contacts = () => {
                     <h3>Torino (TO)</h3>
                 </div>
                 <div className={styles['section']}>
-                    <h4>+44 829 7246 234</h4>
-                    <h4>info@thefloweshop.com</h4>
+                    <h4>+39 019 7246 234
+                    <br />
+                    <a href='mailto:michelacerro@gmail.com' target='_blank' rel='noreferrer'>
+                        info@thefloweshop.com
+                    </a></h4>
                 </div>
                 <div className={styles['socials']}>
                     <a href='https://it-it.facebook.com/' 
@@ -57,12 +66,34 @@ const Contacts = () => {
             </div>
 
             {/* ----- FORM BOX */}
-            <form className={styles['form-box']}>
-                <input type='text' placeholder='Name' className={styles['input-line']} />
-                <input type='text' placeholder='Lastname' className={styles['input-line']} />
-                <input type='text' placeholder='Email' className={styles['input-line']} />
-                <textarea placeholder='Write your message...' />
-                <button type='submit' className={styles['form-button']}>Send</button>
+            <form className={styles['form-box']} onSubmit={handleSubmit}>
+                <input 
+                    type='text' 
+                    id='firstname'
+                    name='firstname' 
+                    placeholder='Firstname' 
+                    className={styles['input-line']} 
+                />
+                <input 
+                    type='text' 
+                    id='lastname'
+                    name='lastname' 
+                    placeholder='Lastname' 
+                    className={styles['input-line']} 
+                />
+                <input 
+                    type='text'
+                    id='email'
+                    name='email'
+                    placeholder='Email' 
+                    className={styles['input-line']} 
+                />
+                <textarea 
+                    id='message'
+                    name='message' 
+                    placeholder='Write your message...' 
+                />
+                <button type='submit'  className={styles['form-button']}>Send</button>
             </form>
         </div>
     );
