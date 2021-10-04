@@ -17,7 +17,7 @@ const Header = () => {
         <div className={styles['header']}>
             <div className={styles['navbar']}>
                 <div className={styles['logo']}>
-                    <Link to='/' className={styles['link-logo']}><GiFlowerPot /></Link>
+                    <Link to='/flower-shop' className={styles['link-logo']}><GiFlowerPot /></Link>
                 </div>
                 <h1 className={styles['name']}>
                     The Flower Shop

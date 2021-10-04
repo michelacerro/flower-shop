@@ -26,7 +26,7 @@ const Menu = () => {
             <div className={styles['menu-vertical']}>
                 <div onClick={showMenu}>{open ? <IoClose className={styles['menu-button']} /> : <FiMenu className={styles['menu-button']} />}</div>
                 <div id='menu' className={styles['menu-box']}>
-                    <Link to ='/' onClick={showMenu} className={styles['link']}>Home</Link>
+                    <Link to ='/flower-shop' onClick={showMenu} className={styles['link']}>Home</Link>
                     <div className={styles['divider']}></div>
                     <Link onClick={showMenu} to='/products' className={styles['link']}>Products</Link>
                     <div className={styles['divider']}></div>

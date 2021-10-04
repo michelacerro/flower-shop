@@ -24,7 +24,7 @@ const App = () => {
           <Header />
           <div className='pages'>
             <Switch>
-              <Route exact path='/' component={Home} />
+              <Route exact path='/flower-shop' component={Home} />
               <Route exact path='/products' component ={Products} />
               <Route exact path='/contacts' component={Contacts} />
               <Route component={Error} />
