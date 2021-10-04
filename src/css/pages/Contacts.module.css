@@ -30,7 +30,10 @@
 
 
 /* ---------- INFO --------- */
-.info-box {background-color: #D9A0C5;}
+.info-box {
+    background-color: #D9A0C5;
+    text-align: center;
+}
 
 .info-box a {
     text-decoration: none;
@@ -58,9 +61,7 @@
     width: 100%;
     max-width: 400px;
     height: 300px;
-}
-.marker {
-    font-size: 24px;
+
     color: #400112;
 }
 
@@ -111,10 +112,10 @@ textarea {
     border: none;
     background-color: #D9A0C5;
     color: #400112;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
 }
-.form-button:hover {font-size: 20px;}
+.form-button:hover {font-weight: bold;}
+
 
 /* ---------- RESPONSIVENESS --------- */
 @media only screen and (min-width: 961px) {

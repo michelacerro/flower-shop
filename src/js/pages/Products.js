@@ -38,6 +38,12 @@ const Products = () => {
     const nameState = useSelector(state => state.nameReducer.state);   
     const colourState = useSelector(state => state.colourReducer.colours);
 
+    const searching = [];
+    Flowers.map(flower => {
+        if (flower.name.includes(nameState)) {searching.push(true)}
+        return searching;
+    })
+
 
     return (
         <div className={styles['page']}>
@@ -52,17 +58,21 @@ const Products = () => {
             <div className={styles['flowers-box']}>
                 {nameState !== '' 
                     ?
-                        Flowers.map(flower =>  flower.name.includes(nameState)
+                        searching.includes(true)
                             ?
-                                <Flower key={flower.id + 'name'} info={flower} />
-                            :
-                                <div></div>
-                    ) : (
+                                Flowers.map(flower => (flower.name.includes(nameState)) 
+                                    ?
+                                        <Flower key={flower.id} info={flower} />
+                                    :
+                                        <div key={flower.id}></div>
+                            ) :
+                                <div className={styles['no-results']}>No results found with "<span>{nameState}</span>".</div>
+                    : (
                         colourState.length === 0 
                             ?
                                 Flowers.map(flower => <Flower key={flower.id} info={flower} />)
                             :
-                                Flowers.filter(colour => colourState.includes(colour.colour)).map(flower => <Flower key={flower.id + 'colour'} info={flower} />)              
+                                Flowers.filter(colour => colourState.includes(colour.colour)).map(flower => <Flower key={flower.id} info={flower} />)              
                     )}
             </div>
         </div>

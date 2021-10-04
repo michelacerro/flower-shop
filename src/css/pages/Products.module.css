@@ -50,6 +50,13 @@
     justify-content: center;
 }
 
+.no-results {
+    font-size: 22px;
+    text-align: center;
+    padding: 50px 20px;
+}
+.no-results > span {color: #400112;}
+
 
 @media only screen and (min-width: 801px) {
     .search-button {display: none;}

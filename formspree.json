@@ -1,16 +1,13 @@
 {
     "forms": {
-        "contact": {
-            "name": "Contact Form",
+        "contactUs": {
+            "name": "Contact Us",
+            "actions": [{ "type": "email", "to": "michelacerro@gmail.com" }],
             "fields": {
-                "firstname": { "type": "text", "required": true },
-                "lastname": { "type": "text", "required": true },
-                "email": { "type": "email", "required": true },
-                "message": { "type": "textarea", "required": true }
-            },
-            "actions": [
-                { "type": "email", "to": "michelacerro@gmail.com" }
-            ]
+                "name": { "required": true },
+                "email": { "required": true },
+                "message": { "required": true }
+            }
         }
     }
 }
