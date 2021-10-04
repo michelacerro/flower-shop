@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/flower-shop/static/css/main.5cde7bf5.chunk.css",
+    "main.js": "/flower-shop/static/js/main.5b532104.chunk.js",
+    "main.js.map": "/flower-shop/static/js/main.5b532104.chunk.js.map",
+    "runtime-main.js": "/flower-shop/static/js/runtime-main.86be6109.js",
+    "runtime-main.js.map": "/flower-shop/static/js/runtime-main.86be6109.js.map",
+    "static/js/2.837d30b6.chunk.js": "/flower-shop/static/js/2.837d30b6.chunk.js",
+    "static/js/2.837d30b6.chunk.js.map": "/flower-shop/static/js/2.837d30b6.chunk.js.map",
+    "static/js/3.540661c6.chunk.js": "/flower-shop/static/js/3.540661c6.chunk.js",
+    "static/js/3.540661c6.chunk.js.map": "/flower-shop/static/js/3.540661c6.chunk.js.map",
+    "index.html": "/flower-shop/index.html",
+    "static/css/main.5cde7bf5.chunk.css.map": "/flower-shop/static/css/main.5cde7bf5.chunk.css.map",
+    "static/js/2.837d30b6.chunk.js.LICENSE.txt": "/flower-shop/static/js/2.837d30b6.chunk.js.LICENSE.txt",
+    "static/media/Contacts.module.css": "/flower-shop/static/media/contacts-background.74651028.jpg",
+    "static/media/Error.module.css": "/flower-shop/static/media/error-background.eb6e548f.jpg",
+    "static/media/Home.module.css": "/flower-shop/static/media/home-background.303c0590.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86be6109.js",
+    "static/js/2.837d30b6.chunk.js",
+    "static/css/main.5cde7bf5.chunk.css",
+    "static/js/main.5b532104.chunk.js"
+  ]
+}
