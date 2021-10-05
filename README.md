@@ -1,4 +1,4 @@
-# Front-end react app: The flower Shop
+# Front-end React app: The flower Shop
 
 ## Description
 ### General description
