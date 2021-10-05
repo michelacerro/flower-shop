@@ -34,7 +34,7 @@ const Menu = () => {
                 </div>
             </div>
             <div className={styles['menu-horizontal']}>
-                <Link to ='/' className={styles['link']}>Home</Link>
+                <Link to ='/flower-shop' className={styles['link']}>Home</Link>
                 <Link to='/products' className={styles['link']}>Products</Link>
                 <Link to='/contacts' className={styles['link']}>Contacts</Link>
             </div>
