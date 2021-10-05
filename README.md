@@ -9,7 +9,7 @@ Here you can find:
 3. A form to send a request to the store.
 
 ### Tecnical description 
-The program was developed with: HTML, CSS, ReactJS, Redux, Google Map React.
+The program was developed with: HTML, CSS, ReactJS, Redux, Google Map React, Formspree.
 
 ## Test me!
 https://michelacerro.github.io/flower-shop
